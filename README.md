@@ -4,7 +4,7 @@
 Deze app geeft een overgezicht van de schilderijen van WebLeonoor.
 Persoonlijk ben ik zeer geinteresseerd in tekenen en schilderen en het een en ander in de kast liggen.
 Omstreeks 2009 heb ik een webpage gemaakt die dit werk allemaal presenteert.
-Deze versie is gemaakt met [Create React App](https://github.com/facebook/create-react-app).
+Deze versie is gemaakt met Vite+React
 
 ## Applicatie starten
 
@@ -20,9 +20,9 @@ De website begint met hetvolgende scherm.
 
 Wanneer dit klaar is, kun je de applicatie starten met behulp van:
 
-`npm start`
+`npm run dev`
 
-of gebruik de WebStorm knop (npm start). Open [http://localhost:3000](http://localhost:3000) om
+of gebruik de WebStorm knop (npm start). Open http://localhost:5173 om
 de pagina in de browser te bekijken. Begin met het maken van wijzigingen in `src/App.jsx`:
 elke keer als je een bestand opslaat, zullen de wijzigingen te zien zijn op de webpagina.
 
@@ -30,15 +30,15 @@ elke keer als je een bestand opslaat, zullen de wijzigingen te zien zijn op de w
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open http://localhost:5173 to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm run build`
+### `vite build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -46,5 +46,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the section about [deployment](https://vite.dev/guide/build.html) for more information.
 
