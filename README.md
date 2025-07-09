@@ -23,7 +23,7 @@ Wanneer dit klaar is, kun je de applicatie starten met behulp van:
 `npm start`
 
 of gebruik de WebStorm knop (npm start). Open [http://localhost:3000](http://localhost:3000) om
-de pagina in de browser te bekijken. Begin met het maken van wijzigingen in `src/App.js`:
+de pagina in de browser te bekijken. Begin met het maken van wijzigingen in `src/App.jsx`:
 elke keer als je een bestand opslaat, zullen de wijzigingen te zien zijn op de webpagina.
 
 (English)

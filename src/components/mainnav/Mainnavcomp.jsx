@@ -3,9 +3,9 @@ import {Link} from "react-router-dom";
 import './Mainnav.css';
 import logo from "../../assets/logo_webLeonoor.jpg";
 import Button from "../button/Button";
-import {ReactComponent as Search} from "../../assets/search.svg";
-import {ReactComponent as Favorite} from "../../assets/carbon-favorite.svg";
-import {ReactComponent as ShoppingCart} from "../../assets/shopping.svg";
+import Search from "../../assets/search.svg?react";
+import Favorite from "../../assets/carbon-favorite.svg?react";
+import ShoppingCart from "../../assets/shopping.svg?react";
 
 function Mainnavcomp({keuze}) {
     return (

@@ -1,7 +1,8 @@
 import React from 'react';
 import {useHistory} from "react-router-dom";
-import {ReactComponent as Back} from "../../assets/Back-arrow.svg";
-import {ReactComponent as Forward} from "../../assets/Forward-arrow.svg";
+import Back from "../../assets/Back-arrow.svg?react";
+import Forward from "../../assets/Forward-arrow.svg?react";
+import Goto from "../../assets/go.svg?react";
 import Article from "../../components/article/Article";
 import vaas from "../../assets/images/still_life_with_glass_vase.jpg";
 import beer from "../../assets/images/still_life_with_bear.jpg";
@@ -9,7 +10,7 @@ import kip from "../../assets/images/chicken.jpg";
 import dommel from "../../assets/images/dommel.jpg";
 import './Schetsen.css';
 import Button from "../../components/button/Button";
-import {ReactComponent as Goto} from "../../assets/go.svg";
+
 import schets from "../../assets/images/vrije_schets.jpg";
 import Mainnavcomp from "../../components/mainnav/Mainnavcomp";
 

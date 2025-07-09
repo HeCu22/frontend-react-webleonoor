@@ -1,11 +1,12 @@
 import React from 'react';
 import {useHistory} from "react-router-dom";
-import {ReactComponent as Back} from "../../assets/Back-arrow.svg";
-import {ReactComponent as Forward} from "../../assets/Forward-arrow.svg";
+import Back from "../../assets/Back-arrow.svg?react";
+import Forward from "../../assets/Forward-arrow.svg?react";
+import Goto from "../../assets/go.svg?react";
 import Article from "../../components/article/Article";
 import Mainnavcomp from "../../components/mainnav/Mainnavcomp";
 import Button from "../../components/button/Button";
-import {ReactComponent as Goto} from "../../assets/go.svg";
+
 import boots from "../../assets/images/snow_boots.jpg";
 import gordes from "../../assets/images/building_with_terras.jpg";
 import castle from "../../assets/images/castle.jpg";

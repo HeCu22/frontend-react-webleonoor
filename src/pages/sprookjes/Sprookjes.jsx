@@ -1,10 +1,10 @@
 import React from 'react';
 import {useHistory} from "react-router-dom";
-import {ReactComponent as Back} from "../../assets/Back-arrow.svg";
-import {ReactComponent as Forward} from "../../assets/Forward-arrow.svg";
+import Back from "../../assets/Back-arrow.svg?react";
+import Forward from "../../assets/Forward-arrow.svg?react";
+import Goto from "../../assets/go.svg?react";
 import Article from "../../components/article/Article";
 import Button from "../../components/button/Button";
-import {ReactComponent as Goto} from "../../assets/go.svg";
 import roze from "../../assets/images/princess_pink.jpg";
 import lady from "../../assets/images/lady_costume.jpg";
 import boeddha from "../../assets/images/boeddha_with_mendhi.jpg";

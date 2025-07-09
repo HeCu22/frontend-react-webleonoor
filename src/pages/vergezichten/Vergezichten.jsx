@@ -1,7 +1,8 @@
 import React from 'react';
 import {useHistory} from "react-router-dom";
-import {ReactComponent as Back} from "../../assets/Back-arrow.svg";
-import {ReactComponent as Forward} from "../../assets/Forward-arrow.svg";
+import Back from "../../assets/Back-arrow.svg?react";
+import Forward from "../../assets/Forward-arrow.svg?react";
+import Goto from "../../assets/go.svg?react";
 import Article from "../../components/article/Article";
 
 import tent from "../../assets/images/tent_at_the_beach.jpg";
@@ -12,7 +13,7 @@ import './Vergezichten.css';
 
 import vogels from "../../assets/images/vogels_in_vlucht.jpg";
 import Button from "../../components/button/Button";
-import {ReactComponent as Goto} from "../../assets/go.svg";
+
 import Mainnavcomp from "../../components/mainnav/Mainnavcomp";
 
 function Vergezichten(props) {

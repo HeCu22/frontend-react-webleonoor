@@ -1,8 +1,9 @@
 import React from 'react';
 import {useHistory} from "react-router-dom";
 import './Home.css';
-import {ReactComponent as Back} from "../../assets/Back-arrow.svg";
-import {ReactComponent as Forward} from "../../assets/Forward-arrow.svg";
+import Back from "../../assets/Back-arrow.svg?react";
+import Forward from "../../assets/Forward-arrow.svg?react";
+import Goto from "../../assets/go.svg?react";
 import Article from "../../components/article/Article";
 import gevelfront from "../../assets/images/gevelfrontaal.jpg";
 import roze from "../../assets/images/princess_pink.jpg";
@@ -10,7 +11,6 @@ import loren from "../../assets/images/sofia_loren_in_iItalia.jpg";
 import boots from "../../assets/images/snow_boots.jpg";
 import vogels from "../../assets/images/vogels_in_vlucht.jpg";
 import Button from "../../components/button/Button";
-import {ReactComponent as Goto} from "../../assets/go.svg";
 import Mainnavcomp from "../../components/mainnav/Mainnavcomp";
 
 function Home(props) {
